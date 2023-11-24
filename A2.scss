@@ -1,0 +1,79 @@
+$bcolor:#636363;
+$maincolor: white;
+
+
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+
+    margin: 137px 309px 166px 271px;
+
+    .contaier {
+        background-image: url(newoffice.jpeg);
+        display: flex;
+        gap: 0px;
+        text-align: center;
+        border: 1px solid $bcolor;
+        margin-right: -136px;
+        margin-left: -23px;
+        justify-content: center;
+        background-color: #000000;
+
+
+        .item {
+
+            border: 1px solid $bcolor;
+            height: 388px;
+            width: 272px;
+
+            h2 {
+                color: #FAAF41;
+                width: 89%;
+                font-size: 1.25rem;
+                margin: 15px 15px 15px 15px;
+                text-align: left;
+
+            }
+
+            p {
+                color: $maincolor;
+                text-align: justify;
+                text-justify: inter-word;
+                margin: 60px 15px 15px 15px;
+            }
+
+
+            h1 {
+                color: $maincolor;
+                width: 50%;
+                margin-top: 90px
+            }
+
+            h3 {
+                color: $maincolor;
+                text-align: left;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contaier {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+    .contaier {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 50%;
+    }
+}

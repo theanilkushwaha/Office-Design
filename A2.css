@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: 137px 309px 166px 271px;
+}
+.parent .contaier {
+  background-image: url(newoffice.jpeg);
+  display: flex;
+  gap: 0px;
+  text-align: center;
+  border: 1px solid #636363;
+  margin-right: -136px;
+  margin-left: -23px;
+  justify-content: center;
+  background-color: #000000;
+}
+.parent .contaier .item {
+  border: 1px solid #636363;
+  height: 388px;
+  width: 272px;
+}
+.parent .contaier .item h2 {
+  color: #FAAF41;
+  width: 89%;
+  font-size: 1.25rem;
+  margin: 15px 15px 15px 15px;
+  text-align: left;
+}
+.parent .contaier .item p {
+  color: white;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 60px 15px 15px 15px;
+}
+.parent .contaier .item h1 {
+  color: white;
+  width: 50%;
+  margin-top: 90px;
+}
+.parent .contaier .item h3 {
+  color: white;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .contaier {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .contaier {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50%;
+  }
+}/*# sourceMappingURL=A2.css.map */
